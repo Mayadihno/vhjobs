@@ -2,7 +2,7 @@ import { FaInstagram, FaFacebookF } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa6";
 import { BsTwitterX } from "react-icons/bs";
 import { IoLogoYoutube } from "react-icons/io";
-import { CiSearch, CiMenuBurger } from "react-icons/ci";
+import { CiSearch } from "react-icons/ci";
 import {
   MdClose,
   MdEmail,
@@ -17,12 +17,13 @@ import { LuMinus } from "react-icons/lu";
 import { HiArrowLongRight } from "react-icons/hi2";
 import { IoIosCheckmark } from "react-icons/io";
 import { FaLinkedinIn } from "react-icons/fa6";
+import { TfiMenu } from "react-icons/tfi";
 
 export const ICONS = {
   instagram: FaInstagram,
   youtube: IoLogoYoutube,
   search: CiSearch,
-  menu: CiMenuBurger,
+  menu: TfiMenu,
   close: MdClose,
   email: MdEmail,
   phone: PiPhoneCallThin,
