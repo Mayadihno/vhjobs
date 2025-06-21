@@ -22,7 +22,7 @@ const SectionOne = () => {
                 <ICONS.arrow size={20} className="ml-2 mt-1" />
               </button>
             </div>
-            <div className=" md:w-[1000px] w-[300px] h-fit md:py-0 py-5">
+            <div className=" md:w-[1000px] w-[300px] mx-auto h-fit md:py-0 py-5">
               <img
                 src={image}
                 alt=""
