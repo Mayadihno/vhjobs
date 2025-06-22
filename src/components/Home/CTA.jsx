@@ -1,5 +1,6 @@
 import React from "react";
 import moneyGuy from "../../assets/images/money.png";
+import money from "../../assets/images/money1.png";
 import { ICONS } from "../../static/icons";
 
 const VhjobsCTA = () => {
@@ -9,7 +10,7 @@ const VhjobsCTA = () => {
         {/* --- Mobile View --- */}
         <div
           className="relative h-[45vh] bg-[#1C71B7] md:hidden rounded-[32px] text-white bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${moneyGuy})` }}
+          style={{ backgroundImage: `url(${money})` }}
         >
           {/* Overlay */}
           <div className="absolute inset-0  bg-[#0000001d]  bg-opacity-50 rounded-[32px]" />

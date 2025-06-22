@@ -5,6 +5,7 @@ import HowItWorks from "./HowItWorks";
 import Personal from "./Personal";
 import Services from "./Services";
 import VhjobsCTA from "./CTA";
+import Download from "./Download";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Personal />
       <Services />
       <VhjobsCTA />
+      <Download />
     </div>
   );
 };
