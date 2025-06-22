@@ -39,3 +39,56 @@ export const hexToRgba = (hex, alpha = 0.5) => {
   const b = parseInt(hex.slice(5, 7), 16);
   return `rgba(${r}, ${g}, ${b}, ${alpha})`;
 };
+
+export const pricingPlans = [
+  {
+    id: 1,
+    skills: [
+      "Logo Designing",
+      "UI/UX Design",
+      "Website Development",
+      "Graphic Design",
+    ],
+    oldPrice: "₦9,500",
+    newPrice: "₦6,500",
+    discount: "5% off",
+    features: [
+      "Three times cleaning",
+      "Professional light cleaning",
+      "Ironing of up to 10 clothes on each visit",
+      "Washing of dishes",
+      "Laying of beds",
+      "Cleaning of 1 living room, 1 bedroom, a kitchen and 2 toilets",
+    ],
+  },
+  {
+    id: 2,
+    skills: ["Logo Designing", "UI/UX Design", "Website Development"],
+    oldPrice: "₦9,500",
+    newPrice: "₦6,500",
+    discount: "5% off",
+    features: [
+      "Three times cleaning",
+      "Professional light cleaning",
+      "Ironing of up to 10 clothes on each visit",
+      "Washing of dishes",
+      "Laying of beds",
+      "Cleaning of 1 living room, 1 bedroom, a kitchen and 2 toilets",
+    ],
+  },
+  {
+    id: 3,
+    skills: ["Logo Designing", "UI/UX Design"],
+    oldPrice: "₦9,500",
+    newPrice: "₦6,500",
+    discount: "5% off",
+    features: [
+      "Three times cleaning",
+      "Professional light cleaning",
+      "Ironing of up to 10 clothes on each visit",
+      "Washing of dishes",
+      "Laying of beds",
+      "Cleaning of 1 living room, 1 bedroom, a kitchen and 2 toilets",
+    ],
+  },
+];
