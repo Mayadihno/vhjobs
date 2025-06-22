@@ -33,3 +33,11 @@ body{
   position: relative;
   width: 100%;
 }
+.money {
+  background-image: url("./assets/images/money.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+}
