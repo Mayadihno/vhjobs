@@ -15,3 +15,21 @@ body{
 
 }
 
+
+.personal{
+  background-image: url("./assets/images/personal1.png");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+}
+
+.bussiness {
+  background-image: url("./assets/images/bussiness.png");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+}
