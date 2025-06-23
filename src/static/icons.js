@@ -19,6 +19,8 @@ import { IoIosCheckmark } from "react-icons/io";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { TfiMenu } from "react-icons/tfi";
 import { ImArrowRight2 } from "react-icons/im";
+import { IoIosArrowBack } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
 
 export const ICONS = {
   instagram: FaInstagram,
@@ -41,4 +43,6 @@ export const ICONS = {
   left: MdOutlineChevronLeft,
   right: MdOutlineChevronRight,
   arrowRight: ImArrowRight2,
+  less: IoIosArrowBack,
+  greater: IoIosArrowForward,
 };
