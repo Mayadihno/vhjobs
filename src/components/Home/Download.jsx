@@ -4,6 +4,7 @@ import image3 from "../../assets/images/iphone.png";
 import image1 from "../../assets/images/iphone1.png";
 import image2 from "../../assets/images/apple.png";
 import image4 from "../../assets/images/google.png";
+import { convinced } from "../../static/data";
 
 const Download = () => {
   return (
@@ -55,6 +56,42 @@ const Download = () => {
               </button>
             </div>
           </div>
+        </div>
+      </div>
+      <div className=" mt-10">
+        <div className="text-center">
+          <h2 className="text-4xl md:text-5xl font-bold">
+            Still not <span className="text-[#8b0093]">convinced</span>?
+          </h2>
+          <h4 className="text-lg py-3">
+            Here are top reasons vhjobs should handle your needs
+          </h4>
+        </div>
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-x-5 md:gap-y-8 gap-y-5 mt-5">
+          {convinced.map((item) => {
+            return (
+              <div
+                className="bg-white flex md:items-start items-center flex-col shadow-lg rounded-[12px]"
+                key={item.id}
+              >
+                <div className="w-28 h-28 rounded-full">
+                  <img
+                    src={item.image}
+                    className="object-contain w-full h-full"
+                    alt=""
+                  />
+                </div>
+                <div className="px-6 text-center md:text-start">
+                  <h2 className="text-3xl md:w-[55%] md:pb-2 font-bold">
+                    {item.title}
+                  </h2>
+                  <p className="text-lg leading-8 py-4 md:w-[75%]">
+                    {item.desc}
+                  </p>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

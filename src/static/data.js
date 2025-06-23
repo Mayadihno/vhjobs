@@ -92,3 +92,35 @@ export const pricingPlans = [
     ],
   },
 ];
+
+import trust from "../assets/images/trust.png";
+import save from "../assets/images/save.png";
+import location from "../assets/images/location.png";
+import easy from "../assets/images/easy.png";
+
+export const convinced = [
+  {
+    id: 1,
+    title: "Easily connect with service providers",
+    desc: "Connect easily with service providers and get your daily tasks done with simple clicks.",
+    image: easy,
+  },
+  {
+    id: 2,
+    title: "Save time and money with quality professionals",
+    desc: "Be more productive by saving time on unnecessary chores, get your daily home and work tasks done by our skilled professionals.",
+    image: save,
+  },
+  {
+    id: 3,
+    title: "Trusted Service",
+    desc: "We make sure we run a check on our service providers so you are rest assured of quality service.",
+    image: trust,
+  },
+  {
+    id: 4,
+    title: "Location is no barrier",
+    desc: "Wherever you are Vhjobs ensures to get you the closest trusted service providers to help you handle your tasks",
+    image: location,
+  },
+];
