@@ -21,6 +21,8 @@ import { TfiMenu } from "react-icons/tfi";
 import { ImArrowRight2 } from "react-icons/im";
 import { SlArrowLeft } from "react-icons/sl";
 import { SlArrowRight } from "react-icons/sl";
+import { IoChevronUpOutline } from "react-icons/io5";
+import { IoChevronDownSharp } from "react-icons/io5";
 
 export const ICONS = {
   instagram: FaInstagram,
@@ -45,4 +47,6 @@ export const ICONS = {
   arrowRight: ImArrowRight2,
   less: SlArrowLeft,
   greater: SlArrowRight,
+  up: IoChevronUpOutline,
+  down: IoChevronDownSharp,
 };
