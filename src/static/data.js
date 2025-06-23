@@ -124,3 +124,25 @@ export const convinced = [
     image: location,
   },
 ];
+
+// src/data/faqData.js
+export const faqs = [
+  {
+    id: 1,
+    question: "Can I subcribe me than one package at once? ",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique viverra aliquet lectus morbi suspendisse pellentesque facilisis et. Duis volutpat at iaculis vitae at ut ultricies.",
+  },
+  {
+    id: 2,
+    question: "Can I subcribe me than one package at once? ",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique viverra aliquet lectus morbi suspendisse pellentesque facilisis et. Duis volutpat at iaculis vitae at ut ultricies.",
+  },
+  {
+    id: 3,
+    question: "Can I subcribe me than one package at once? ",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique viverra aliquet lectus morbi suspendisse pellentesque facilisis et. Duis volutpat at iaculis vitae at ut ultricies.",
+  },
+];

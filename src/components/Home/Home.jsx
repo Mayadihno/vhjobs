@@ -6,6 +6,7 @@ import Personal from "./Personal";
 import Services from "./Services";
 import VhjobsCTA from "./CTA";
 import Download from "./Download";
+import Faq from "./Faq";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Services />
       <VhjobsCTA />
       <Download />
+      <Faq />
     </div>
   );
 };
