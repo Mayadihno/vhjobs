@@ -146,3 +146,42 @@ export const faqs = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique viverra aliquet lectus morbi suspendisse pellentesque facilisis et. Duis volutpat at iaculis vitae at ut ultricies.",
   },
 ];
+
+import chef from "../assets/images/cook.png";
+import photo from "../assets/images/photo.png";
+import painting from "../assets/images/painting.png";
+import cleaning from "../assets/images/cleaning.png";
+import makeup from "../assets/images/make-up.png";
+
+export const treanding = [
+  {
+    id: 1,
+    name: "Make-up",
+    image: makeup,
+  },
+  {
+    id: 2,
+    name: "Cleaning",
+    image: cleaning,
+  },
+  {
+    id: 3,
+    name: "Photoshoot",
+    image: photo,
+  },
+  {
+    id: 4,
+    name: "Mobile Chef",
+    image: chef,
+  },
+  {
+    id: 5,
+    name: "Painting",
+    image: painting,
+  },
+  {
+    id: 6,
+    name: "web development",
+    image: cleaning,
+  },
+];

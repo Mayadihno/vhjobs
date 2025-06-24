@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { ICONS } from "../../static/icons";
 import image from "../../assets/images/logo.png";
 import { Link } from "react-router-dom";
+import Menu from "../Navbar/Menu";
 const Banner = () => {
   const [menuOpen, setmenuOpen] = useState(false);
   return (
@@ -22,14 +23,12 @@ const Banner = () => {
             </button>
           </div>
         </div>
-
         <div
           className="absolute md:block hidden bottom-0 left-0 w-full h-full z-0"
           style={{
             background: `linear-gradient(to top, #061725 -15%, #06172500 100%)`,
           }}
         />
-
         <div className="relative z-10 text-center px-4 max-w-4xl md:block hidden">
           <h1 className="text-white text-4xl md:text-5xl font-bold leading-tight">
             Hire The Right Professional For <br />
@@ -148,6 +147,7 @@ const Banner = () => {
           ))}
         </div>
       </div>
+      {menuOpen && <Menu setmenuOpen={setmenuOpen} />}
     </React.Fragment>
   );
 };
