@@ -12,7 +12,7 @@ const Menu = ({ setmenuOpen }) => {
         data-aos="fade-down"
         data-aos-easing="linear"
         data-aos-duration="1400"
-        className="fixed w-full h-screen top-0 left-0 bg-white z-50"
+        className="fixed w-full h-screen top-0 left-0 bg-white z-50 overflow-x-scroll"
       >
         <div className="w-[90%] py-6 px-2 mx-auto">
           <div className="flex justify-between items-center">
@@ -28,21 +28,21 @@ const Menu = ({ setmenuOpen }) => {
               onClick={() => setmenuOpen(false)}
             />
           </div>
-          <div className="flex justify-between items-center space-x-5 my-10">
+          <div className="flex justify-between w-full items-center space-x-5 my-10">
             <div className="w-1/2">
-              <button className="bg-[#1C71B7] text-white py-4 px-18 rounded-full">
+              <button className="bg-[#1C71B7] text-white py-2 px-10 rounded-full">
                 Sign up
               </button>
             </div>
             <div className="w-1/2">
-              <button className="border border-[#061726] text-[#061726] py-4 px-12 rounded-full">
+              <button className="border border-[#061726] text-[#061726] py-2 px-4 rounded-full">
                 Explore Needs
               </button>
             </div>
           </div>
           <div className="flex justify-between gap-4 mb-8">
             <div className="">
-              <h2 className="text-2xl text-[#1C71B7] font-bold">
+              <h2 className="text-xl text-[#1C71B7] font-bold">
                 Treanding needs
               </h2>
               <div className="flex flex-col space-y-4 py-4">
@@ -61,7 +61,7 @@ const Menu = ({ setmenuOpen }) => {
               </div>
             </div>
             <div className="">
-              <h2 className="text-2xl text-[#1C71B7] font-bold">Company</h2>
+              <h2 className="text-xl text-[#1C71B7] font-bold">Company</h2>
               <ul className="space-y-4 py-4 text-lg">
                 <li>About Us</li>
                 <li>Trust & Safety</li>
@@ -71,10 +71,8 @@ const Menu = ({ setmenuOpen }) => {
                 <li>Payment Protection</li>
               </ul>
               <div className="pt-3">
-                <h2 className="text-2xl text-[#1C71B7] font-bold">
-                  Contact us
-                </h2>
-                <div className="flex items-center space-x-4 pt-3">
+                <h2 className="text-xl text-[#1C71B7] font-bold">Contact us</h2>
+                <div className="flex items-center space-x-2 pl-2 pt-3">
                   <div className="border border-[#061726] p-2 rounded-full flex justify-center items-center">
                     <ICONS.phone size={20} color="#061726" />
                   </div>
@@ -94,7 +92,7 @@ const Menu = ({ setmenuOpen }) => {
             </button>
           </div>
           <div className="flex justify-center space-x-6 pt-8">
-            <div className="border w-1/2 border-[#061726] flex items-center p-4 rounded">
+            <div className="border w-1/2 border-[#061726] flex items-center p-2 rounded">
               <img
                 src={playStore}
                 alt="PlayStore"
@@ -106,7 +104,7 @@ const Menu = ({ setmenuOpen }) => {
               </div>
             </div>
 
-            <div className="border w-1/2 border-[#061726] flex items-center p-4 rounded">
+            <div className="border w-1/2 border-[#061726] flex items-center p-2 rounded">
               <ICONS.apple size={32} color="#061726" />
               <div className="flex flex-col text-xs pl-3">
                 <h5>Download from</h5>

@@ -51,9 +51,12 @@ const Services = () => {
                     </div>
 
                     <div className="text-center mt-10 mb-5 flex justify-center space-x-4 items-center">
-                      <p className="text-xl line-through bg-gradient-to-l from-[#09263D] to-[#1C71B7] bg-clip-text text-transparent">
-                        {plan.oldPrice}
-                      </p>
+                      <div className=" line-through">
+                        <p className="text-xl line-through bg-gradient-to-l from-[#09263D] to-[#1C71B7] bg-clip-text text-transparent">
+                          {plan.oldPrice}
+                        </p>
+                      </div>
+
                       <p className="text-3xl font-bold bg-gradient-to-l from-[#09263D] to-[#1C71B7] bg-clip-text text-transparent">
                         {plan.newPrice}
                       </p>
@@ -122,9 +125,11 @@ const Services = () => {
                 </div>
 
                 <div className="text-center mt-10 mb-5 flex justify-center space-x-4 items-center">
-                  <p className="text-xl line-through bg-gradient-to-l from-[#09263D] to-[#1C71B7] bg-clip-text text-transparent">
-                    {plan.oldPrice}
-                  </p>
+                  <div className=" line-through">
+                    <p className="text-xl line-through bg-gradient-to-l from-[#09263D] to-[#1C71B7] bg-clip-text text-transparent">
+                      {plan.oldPrice}
+                    </p>
+                  </div>
                   <p className="text-3xl font-bold bg-gradient-to-l from-[#09263D] to-[#1C71B7] bg-clip-text text-transparent">
                     {plan.newPrice}
                   </p>

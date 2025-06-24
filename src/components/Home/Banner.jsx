@@ -7,7 +7,7 @@ const Banner = () => {
   const [menuOpen, setmenuOpen] = useState(false);
   return (
     <React.Fragment>
-      <div className="banner md:h-[100vh] h-[50vh] md:flex md:items-center md:justify-center md:pt-[150px] pt-0">
+      <div className="banner 2xl:h-[100vh] lg:h-[80vh] md:h-[75vh] h-[50vh] md:flex md:items-center md:justify-center md:pt-[90px] 2xl:pt-[100px] lg:pt-[0px] pt-0">
         <div className="md:hidden block">
           <div className="md:w-[92%] w-[98%] mx-auto px-3 pt-6 flex justify-between items-center">
             <Link to={"/"}>

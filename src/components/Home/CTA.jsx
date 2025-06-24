@@ -9,7 +9,7 @@ const VhjobsCTA = () => {
       <div className="md:w-[92%] w-[98%] mx-auto md:mt-[80px] mt-[30px] px-3 rounded-[32px] overflow-hidden">
         {/* --- Mobile View --- */}
         <div
-          className="relative h-[45vh] bg-[#1C71B7] md:hidden rounded-[32px] text-white bg-cover bg-center bg-no-repeat"
+          className="relative h-[45vh] bg-[#1C71B7] xl:hidden rounded-[32px] text-white bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: `url(${money})` }}
         >
           {/* Overlay */}
@@ -35,7 +35,7 @@ const VhjobsCTA = () => {
         </div>
 
         {/* --- Desktop View --- */}
-        <div className="hidden md:flex justify-between items-center bg-[#1C71B7] rounded-[32px]">
+        <div className="hidden xl:flex justify-between items-center bg-[#1C71B7] rounded-[32px]">
           <div className="p-6 md:w-[35%] w-full md:ml-[5%] text-white">
             <h2 className="text-5xl font-bold leading-tight">
               Make money with vhjobs

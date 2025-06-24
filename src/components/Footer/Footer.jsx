@@ -37,7 +37,7 @@ const Footer = () => {
 
       {/* FOOTER */}
       <footer className="bg-[#061725] text-white md:pt-46 pt-10">
-        <div className="max-w-7xl mx-auto flex flex-col px-4 md:grid mdgrid-cols-1 md:grid-cols-5 gap-4 md:gap-8">
+        <div className=" max-w-6xl mx-auto flex flex-col px-4 md:grid sm:grid-cols-2 grid-cols-1 2xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-4 gap-4 md:gap-8">
           {/* Popular Needs */}
           <div>
             <div

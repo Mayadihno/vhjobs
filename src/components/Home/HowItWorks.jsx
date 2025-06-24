@@ -22,9 +22,9 @@ const steps = [
 export default function HowItWorks() {
   return (
     <section className="w-[98%] md:w-[92%] mx-auto mt-[30px] md:mt-[150px] px-3">
-      <div className="flex flex-col md:flex-row items-start justify-between relative">
+      <div className="flex 2xl:flex-row flex-col items-start justify-between relative">
         {/* Left: Images */}
-        <div className="relative flex-shrink-0 md:block hidden">
+        <div className="relative md:pb-10 md:ml-10 flex-shrink-0 sm:block hidden">
           <div className="w-[350px] h-[350px] overflow-hidden">
             <img
               src={image1}
@@ -43,7 +43,7 @@ export default function HowItWorks() {
 
         {/* Right: Text */}
         <div className="">
-          <h2 className="text-4xl md:text-5xl font-bold md:w-[65%] w-[85%] pb-3 leading-10 md:leading-14">
+          <h2 className="text-4xl md:text-5xl font-bold 2xl:w-[65%] w-[85%] pb-3 leading-10 md:leading-14">
             <span className="text-[#1C71B7]">Easiest way </span>
             to get your <span className="text-[#1C71B7]">needs done</span>
           </h2>

@@ -18,7 +18,7 @@ const Download = () => {
     <React.Fragment>
       <section className="md:w-[92%] text-[#061725] w-[98%] mx-auto md:mt-[80px] mt-[30px] px-3">
         <div className="bg-[#DDF0FF] rounded-[32px] px-10 t-5 md:px-20 md:pt-12">
-          <div className="md:flex flex-row items-center justify-between gap-10 hidden">
+          <div className="xl:flex flex-row items-center justify-between gap-10 hidden">
             <div className="md:w-[40%] md:block hidden w-full">
               <h2 className="text-3xl md:text-5xl w-[50%] font-bold leading-tight mb-4">
                 Download Vhjobs app
@@ -43,7 +43,7 @@ const Download = () => {
               />
             </div>
           </div>
-          <div className=" md:hidden block">
+          <div className=" xl:hidden block">
             <h2 className="text-2xl w-[50%] mx-auto font-bold pb-7 pt-5 text-center">
               Download Vhjobs app
             </h2>
@@ -94,10 +94,10 @@ const Download = () => {
                     />
                   </div>
                   <div className="px-6 text-center md:text-start">
-                    <h2 className="text-3xl md:w-[55%] md:pb-2 font-bold">
+                    <h2 className="text-3xl xl:w-[55%] md:pb-2 font-bold">
                       {item.title}
                     </h2>
-                    <p className="text-lg leading-8 py-4 md:w-[75%]">
+                    <p className="text-lg leading-8 py-4 xl:w-[75%]">
                       {item.desc}
                     </p>
                   </div>
@@ -109,26 +109,26 @@ const Download = () => {
       </section>
       <div className="mt-14 pt-3 bg-[#061725] w-full h-fit">
         <div className="md:w-[92%] text-white md:px-8 px-4 md:py-10 w-[98%] mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2">
+          <div className="grid grid-cols-1 xl:grid-cols-2">
             <div className=" col-span-1">
               <div className="flex flex-col mt-5">
-                <h2 className="text-3xl md:text-5xl tracking-widest font-bold md:w-[55%]">
+                <h2 className="text-3xl md:text-5xl tracking-widest font-bold xl:w-[55%]">
                   What people saying
                 </h2>
-                <p className="pb-4 pt-6 text-xl leading-8 md:w-[45%] md:block hidden">
+                <p className="pb-4 pt-6 text-xl leading-8 xl:w-[45%] xl:block hidden">
                   We pride ourselves on customer satisfaction, and here's what
                   satisfied customers are saying
                 </p>
-                <p className="pb-4 pt-3 text-base leading-8 md:w-[45%] block md:hidden">
+                <p className="pb-4 pt-3 text-base leading-8 xl:w-[45%] block xl:hidden">
                   In simple term, we connnect people with skilled professionals
                   for their Personal and Business needs
                 </p>
-                <div className="w-50 md:block hidden">
+                <div className="w-50 xl:block hidden">
                   <img src={arrow} alt="" />
                 </div>
               </div>
             </div>
-            <div className="md:hidden pb-8 py-5">
+            <div className="xl:hidden pb-8 py-5">
               <Swiper spaceBetween={-80} slidesPerView={1.2} loop={true}>
                 {[phone, phone2, phone3].map((img, idx) => (
                   <SwiperSlide key={idx}>
@@ -141,7 +141,7 @@ const Download = () => {
                 ))}
               </Swiper>
             </div>
-            <div className="col-span-1 hidden md:block py-4 md:py-0">
+            <div className="col-span-1 hidden xl:block py-4 md:py-0">
               <div className="flex w-[32%]  space-x-4">
                 <img src={phone} className=" w-full object-contain" alt="" />
                 <img src={phone2} alt="" />
@@ -149,7 +149,7 @@ const Download = () => {
               </div>
             </div>
           </div>
-          <div className="md:flex hidden justify-end pt-10 mr-10 items-center space-x-4">
+          <div className="xl:flex hidden justify-end pt-10 mr-10 items-center space-x-4">
             <div className="bg-white flex items-center justify-center w-10 h-10 rounded-full">
               <ICONS.less size={20} color="#1C71B7" className="" />
             </div>

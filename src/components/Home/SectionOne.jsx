@@ -6,23 +6,23 @@ const SectionOne = () => {
     <React.Fragment>
       <div className="md:w-[92%] w-[98%] mx-auto md:mt-[50px] mt-[30px] px-3">
         <div className="w-full md:rounded-[30px] rounded-[10px] shadow-lg">
-          <div className="flex md:flex-row flex-col justify-content-between md:w-[95%] w-full mx-auto p-5 md:p-12">
+          <div className="flex xl:flex-row flex-col justify-content-between md:w-[95%] w-full mx-auto p-5 md:p-12">
             <div className="">
               <h3 className="md:w-[60%] w-full text-5xl font-bold">
                 Have a need to get <span className="text-[#1C71B7]">done</span>?
               </h3>
-              <p className="text-lg leading-10 md:w-[60%] w-full py-3">
+              <p className="text-lg leading-10 xl:w-[60%] w-full py-3">
                 Vhjobs is a platform created for individuals and businesses
                 looking for people to help them handle their tasks. Vhjobs
                 connects these individuals/businesses with skilled professionals
                 that are closest to them.
               </p>
-              <button className="px-8 py-3 flex items-center cursor-pointer bg-[#1C71B7] text-white rounded-[20px]">
+              <button className="md:px-8 px-5 md:py-3 py-4 flex items-center cursor-pointer bg-[#1C71B7] text-white rounded-[20px]">
                 Tell us what you need to get done{" "}
                 <ICONS.arrow size={20} className="ml-2 mt-1" />
               </button>
             </div>
-            <div className=" md:w-[1000px] w-[300px] mx-auto h-fit md:py-0 py-5">
+            <div className=" xl:w-[1000px] md:w-[600px] w-[300px] mx-auto h-fit xl:py-0 py-5">
               <img
                 src={image}
                 alt=""
