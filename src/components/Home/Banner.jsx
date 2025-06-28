@@ -1,14 +1,28 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { ICONS } from "../../static/icons";
 import image from "../../assets/images/logo.png";
 import { Link } from "react-router-dom";
 import Menu from "../Navbar/Menu";
 const Banner = () => {
   const [menuOpen, setmenuOpen] = useState(false);
+  const [showBg, setShowBg] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowBg(window.scrollY > 80);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
   return (
     <React.Fragment>
       <div className="banner 2xl:h-[100vh] lg:h-[80vh] md:h-[75vh] h-[50vh] md:flex md:items-center md:justify-center md:pt-[90px] 2xl:pt-[100px] lg:pt-[0px] pt-0">
-        <div className="md:hidden block">
+        <div
+          className={`md:hidden block fixed w-full top-0 z-[50] transition duration-300 ${
+            showBg ? "bg-white shadow-md pb-4" : "bg-transparent"
+          }`}
+        >
           <div className="md:w-[92%] w-[98%] mx-auto px-3 pt-6 flex justify-between items-center">
             <Link to={"/"}>
               <div className="w-[100px] object-fit-contain">
