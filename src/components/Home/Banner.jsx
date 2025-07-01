@@ -1,42 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { ICONS } from "../../static/icons";
-import image from "../../assets/images/logo.png";
-import { Link } from "react-router-dom";
-import Menu from "../Navbar/Menu";
 const Banner = () => {
-  const [menuOpen, setmenuOpen] = useState(false);
-  const [showBg, setShowBg] = useState(false);
-  useEffect(() => {
-    const handleScroll = () => {
-      setShowBg(window.scrollY > 80);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
   return (
     <React.Fragment>
       <div className="banner 2xl:h-[100vh] lg:h-[80vh] md:h-[75vh] h-[50vh] md:flex md:items-center md:justify-center md:pt-[90px] 2xl:pt-[100px] lg:pt-[0px] pt-0">
-        <div
-          className={`md:hidden block fixed w-full top-0 z-[50] transition duration-300 ${
-            showBg ? "bg-white shadow-md pb-4" : "bg-transparent"
-          }`}
-        >
-          <div className="md:w-[92%] w-[98%] mx-auto px-3 pt-6 flex justify-between items-center">
-            <Link to={"/"}>
-              <div className="w-[100px] object-fit-contain">
-                <img src={image} alt="logo image" className="w-full h-full" />
-              </div>
-            </Link>
-            <button
-              onClick={() => setmenuOpen(!menuOpen)}
-              className="focus:outline-none cursor-pointer text-xl text-[#061725]"
-            >
-              <ICONS.menu color="#1C71B7" size={30} fontWeight={"bold"} />
-            </button>
-          </div>
-        </div>
         <div
           className="absolute md:block hidden bottom-0 left-0 w-full h-full z-0"
           style={{
@@ -161,7 +128,6 @@ const Banner = () => {
           ))}
         </div>
       </div>
-      {menuOpen && <Menu setmenuOpen={setmenuOpen} />}
     </React.Fragment>
   );
 };

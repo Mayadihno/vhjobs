@@ -14,7 +14,7 @@ const Menu = ({ setmenuOpen }) => {
         data-aos-duration="1400"
         className="fixed w-full h-screen top-0 left-0 bg-white z-50 overflow-x-scroll"
       >
-        <div className="w-[90%] py-6 px-2 mx-auto">
+        <div className="w-[90%] md:w-[45%] py-6 px-2 mx-auto">
           <div className="flex justify-between items-center">
             <Link to={"/"}>
               <div className="w-[100px] object-fit-contain">
@@ -26,9 +26,10 @@ const Menu = ({ setmenuOpen }) => {
               size={30}
               color="#1C71B7"
               onClick={() => setmenuOpen(false)}
+              className="cursor-pointer"
             />
           </div>
-          <div className="flex justify-between w-full items-center space-x-5 my-10">
+          <div className="flex justify-between w-full md:w-1/2 md:mx-auto items-center space-x-5 my-10">
             <div className="w-1/2">
               <button className="bg-[#1C71B7] text-white py-2 px-10 rounded-full">
                 Sign up
@@ -72,7 +73,7 @@ const Menu = ({ setmenuOpen }) => {
               </ul>
               <div className="pt-3">
                 <h2 className="text-xl text-[#1C71B7] font-bold">Contact us</h2>
-                <div className="flex items-center space-x-2 pl-2 pt-3">
+                <div className="flex items-center md:space-x-3.5 space-x-2 pl-2 pt-3">
                   <div className="border border-[#061726] p-2 rounded-full flex justify-center items-center">
                     <ICONS.phone size={20} color="#061726" />
                   </div>
@@ -86,13 +87,13 @@ const Menu = ({ setmenuOpen }) => {
               </div>
             </div>
           </div>
-          <div className="w-full flex justify-center">
+          <div className="w-full md:w-1/2 md:mx-auto flex justify-center">
             <button className="border border-[#1c71b7] font-bold w-full text-[#1c71b7] py-4 px-12 rounded-full">
               Become a service provider
             </button>
           </div>
           <div className="flex justify-center space-x-6 pt-8">
-            <div className="border w-1/2 border-[#061726] flex items-center p-2 rounded">
+            <div className="border w-1/2 md:w-fit border-[#061726] flex items-center p-2 rounded">
               <img
                 src={playStore}
                 alt="PlayStore"
@@ -104,7 +105,7 @@ const Menu = ({ setmenuOpen }) => {
               </div>
             </div>
 
-            <div className="border w-1/2 border-[#061726] flex items-center p-2 rounded">
+            <div className="border w-1/2 md:w-fit border-[#061726] flex items-center p-2 rounded">
               <ICONS.apple size={32} color="#061726" />
               <div className="flex flex-col text-xs pl-3">
                 <h5>Download from</h5>
