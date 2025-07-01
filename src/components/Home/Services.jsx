@@ -7,7 +7,7 @@ import { Autoplay } from "swiper/modules";
 const Services = () => {
   return (
     <React.Fragment>
-      <div className="md:w-[92%] w-[98%] mx-auto md:mt-[80px] mt-[30px] px-3">
+      <div className="md:w-[80%] w-[98%] mx-auto md:mt-[80px] mt-[30px] px-3">
         <div className="text-center">
           <h1 className="text-4xl md:text-5xl font-bold md:w-full w-[75%] mx-auto">
             Get more <span className="text-[#1C71B7]">needs done</span> for less

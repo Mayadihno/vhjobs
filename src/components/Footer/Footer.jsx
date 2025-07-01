@@ -15,7 +15,7 @@ const Footer = () => {
     <React.Fragment>
       {/* PROMO SECTION */}
       <div className="relative z-40">
-        <div className="md:w-[80%] w-[88%] mx-auto rounded-[32px] md:mb-[-120px] mb-12 z-40 shadow-lg bg-[#1C71B7] mt-7 md:mt-10 p-6">
+        <div className="md:w-[70%] w-[88%] mx-auto rounded-[32px] md:mb-[-120px] mb-12 z-40 shadow-lg bg-[#1C71B7] mt-7 md:mt-10 p-6">
           <div className="flex md:flex-row flex-col justify-between items-center">
             <div className="md:w-1/2 w-full object-contain">
               <img src={image} alt="Promo" />

@@ -4,7 +4,7 @@ import image from "../../assets/images/section1.png";
 const SectionOne = () => {
   return (
     <React.Fragment>
-      <div className="md:w-[92%] w-[98%] mx-auto md:mt-[50px] mt-[30px] px-3">
+      <div className="md:w-[80%] w-[98%] mx-auto md:mt-[50px] mt-[30px] px-3">
         <div className="w-full md:rounded-[30px] rounded-[10px] shadow-lg">
           <div className="flex xl:flex-row flex-col justify-content-between md:w-[95%] w-full mx-auto p-5 md:p-12">
             <div className="">

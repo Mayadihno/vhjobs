@@ -16,11 +16,11 @@ import "swiper/css";
 const Download = () => {
   return (
     <React.Fragment>
-      <section className="md:w-[92%] text-[#061725] w-[98%] mx-auto md:mt-[80px] mt-[30px] px-3">
+      <section className="md:w-[80%] text-[#061725] w-[98%] mx-auto md:mt-[80px] mt-[30px] px-3">
         <div className="bg-[#DDF0FF] rounded-[32px] px-10 t-5 md:px-20 md:pt-12">
           <div className="xl:flex flex-row items-center justify-between gap-10 hidden">
             <div className="md:w-[40%] md:block hidden w-full">
-              <h2 className="text-3xl md:text-5xl w-[50%] font-bold leading-tight mb-4">
+              <h2 className="text-3xl md:text-5xl w-[70%] font-bold leading-tight mb-4">
                 Download Vhjobs app
               </h2>
               <p className="text-xl mb-6 w-[45%]">
@@ -35,7 +35,7 @@ const Download = () => {
             </div>
 
             {/* Right: Phones */}
-            <div className="md:w-[40%] w-full">
+            <div className="md:w-[52%] w-full">
               <img
                 src={image3}
                 alt="App screen 3"
@@ -108,7 +108,7 @@ const Download = () => {
         </div>
       </section>
       <div className="mt-14 pt-3 bg-[#061725] w-full h-fit">
-        <div className="md:w-[92%] text-white md:px-8 px-4 md:py-10 w-[98%] mx-auto">
+        <div className="md:w-[80%] text-white md:px-8 px-4 md:py-10 w-[98%] mx-auto">
           <div className="grid grid-cols-1 xl:grid-cols-2">
             <div className=" col-span-1">
               <div className="flex flex-col mt-5">
@@ -142,7 +142,7 @@ const Download = () => {
               </Swiper>
             </div>
             <div className="col-span-1 hidden xl:block py-4 md:py-0">
-              <div className="flex w-[32%]  space-x-4">
+              <div className="flex w-[38%]  space-x-4">
                 <img src={phone} className=" w-full object-contain" alt="" />
                 <img src={phone2} alt="" />
                 <img src={phone3} alt="" />

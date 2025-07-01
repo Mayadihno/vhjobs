@@ -148,7 +148,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="md:w-[80%] w-[90%] mx-auto md:-mt-[100px] mt-[-80px] relative z-20">
+      <div className="md:w-[70%] w-[90%] mx-auto md:-mt-[100px] mt-[-80px] relative z-20">
         <h2 className="md:text-4xl text-2xl text-white font-bold md:text-center">
           Trusted By
         </h2>

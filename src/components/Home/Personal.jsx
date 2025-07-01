@@ -9,7 +9,7 @@ import { Autoplay } from "swiper/modules";
 const Personal = () => {
   return (
     <React.Fragment>
-      <div className="md:w-[92%] w-[98%] mx-auto md:mt-[80px] mt-[50px] px-3">
+      <div className="md:w-[80%] w-[98%] mx-auto md:mt-[80px] mt-[50px] px-3">
         <div className="md:text-center">
           <h1 className="text-4xl md:w-full w-[95%] md:text-5xl font-bold">
             Why stress when <span className="text-[#8b0093]">vhjobs</span> is

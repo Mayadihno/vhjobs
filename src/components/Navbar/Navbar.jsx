@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <React.Fragment>
       <nav className="bg-white text-gray-900 p-4 sticky top-0 z-50 shadow-md w-full md:block hidden">
-        <div className="md:w-[92%] w-[98%] mx-auto flex justify-between items-center">
+        <div className="md:w-[80%] w-[98%] mx-auto flex justify-between items-center">
           {/* Logo */}
 
           <Link to={"/"}>

@@ -6,7 +6,7 @@ import { ICONS } from "../../static/icons";
 const VhjobsCTA = () => {
   return (
     <React.Fragment>
-      <div className="md:w-[92%] w-[98%] mx-auto md:mt-[80px] mt-[30px] px-3 rounded-[32px] overflow-hidden">
+      <div className="md:w-[80%] w-[98%] mx-auto md:mt-[80px] mt-[30px] px-3 rounded-[32px] overflow-hidden">
         {/* --- Mobile View --- */}
         <div
           className="relative h-[45vh] bg-[#1C71B7] xl:hidden rounded-[32px] text-white bg-cover bg-center bg-no-repeat"
