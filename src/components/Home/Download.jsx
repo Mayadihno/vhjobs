@@ -35,7 +35,7 @@ const Download = () => {
             </div>
 
             {/* Right: Phones */}
-            <div className="md:w-[52%] w-full">
+            <div className="md:w-[55%] w-full">
               <img
                 src={image3}
                 alt="App screen 3"
@@ -149,7 +149,7 @@ const Download = () => {
               </div>
             </div>
           </div>
-          <div className="xl:flex hidden justify-end pt-10 mr-10 items-center space-x-4">
+          <div className="xl:flex hidden justify-end mr-10 items-center space-x-4">
             <div className="bg-white flex items-center justify-center w-10 h-10 rounded-full">
               <ICONS.less size={20} color="#1C71B7" className="" />
             </div>

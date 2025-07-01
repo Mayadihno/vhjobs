@@ -21,7 +21,7 @@ const Personal = () => {
           </h4>
         </div>
         <div className="grid grid-cols-1 md:gap-y-8 gap-y-5">
-          <div className="personal relative rounded-[32px] 2xl:h-[70vh] text-white min-h-[48vh] xl:h-[100vh] lg:h-[60vh] md:h-[68vh] my-7">
+          <div className="personal relative rounded-[32px] 2xl:h-[75vh] text-white min-h-[48vh] xl:h-[100vh] lg:h-[60vh] md:h-[68vh] my-7">
             <div className="absolute w-full h-full">
               <div className="w-[95%] mx-auto md:pt-14 pt-10">
                 <div className="flex justify-between items-center">
@@ -94,7 +94,7 @@ const Personal = () => {
               </div>
             </div>
           </div>
-          <div className="bussiness rounded-[32px] relative 2xl:h-[70vh] text-white min-h-[48vh] xl:h-[100vh] lg:h-[60vh] md:h-[68vh] my-7">
+          <div className="bussiness rounded-[32px] relative 2xl:h-[75vh] text-white min-h-[48vh] xl:h-[100vh] lg:h-[60vh] md:h-[68vh] my-7">
             <div className="w-full h-full">
               <div className="w-[95%] mx-auto md:pt-14 pt-10">
                 <div className="flex justify-between items-center">
